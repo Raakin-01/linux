@@ -3,3 +3,13 @@
 ┌──(raakin㉿DESKTOP-0FFMSPJ)-[~]
 └─$ rm -rf [example directory]
 
+2)zip and unzip:
+zip:
+raakin@DESKTOP-0FFMSPJ:~$ zip -r output.zip  f1.txt f2.txt
+unzip:
+raakin@DESKTOP-0FFMSPJ:~$ unzip output.zip
+Archive:  output.zip
+replace f1.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+ extracting: f1.txt
+replace f2.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+ extracting: f2.txt
