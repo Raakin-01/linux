@@ -1,0 +1,5 @@
+1)A command to delete a directory with files in it is :
+
+┌──(raakin㉿DESKTOP-0FFMSPJ)-[~]
+└─$ rm -rf [example directory]
+
