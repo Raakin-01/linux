@@ -78,3 +78,8 @@ raakin@DESKTOP-0FFMSPJ:~$ ps
     396 pts/0    00:00:00 bash
     681 pts/0    00:00:00 ps
 ==============================================================================================
+The watch command lets you continuously run a utility at a specific interval to monitor 
+changes in the output. 
+Here’s the basic syntax:
+
+watch [options] command_name
