@@ -41,3 +41,30 @@ snapfuse            52096     52096         0 100% /snap/snapd/25202
 snapfuse             4608      4608         0 100% /snap/tree/54
 tmpfs              803040        20    803020   1% /run/user/1000
 =============================================================================
+du:
+To check the size of a directory and its content, use the du command. Here’s the syntax:
+raakin@DESKTOP-0FFMSPJ:~$ du
+4       ./.cache
+8       ./.config/htop
+8       ./.config/dconf
+8       ./.config/gedit
+24      ./.config/neofetch
+4       ./.config/enchant
+56      ./.config
+84      ./newc
+4       ./.local/share/flatpak/db
+8       ./.local/share/flatpak
+8       ./.local/share/gedit
+4       ./.local/share/nano
+28      ./.local/share
+32      ./.local
+56      ./uni_linx
+8       ./network
+4       ./snap/tree/54
+4       ./snap/tree/common/.local/lib/locale
+8       ./snap/tree/common/.local/lib
+12      ./snap/tree/common/.local
+16      ./snap/tree/common
+24      ./snap/tree
+28      ./snap
+340     .
