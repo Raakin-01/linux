@@ -13,4 +13,31 @@ replace f1.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
  extracting: f1.txt
 replace f2.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
  extracting: f2.txt
-
+============================================================================
+df:
+The df command checks your Linux system’s disk usage,
+displaying the used space in percentage and kilobyte (KB).
+The syntax looks like this:
+raakin@DESKTOP-0FFMSPJ:~$ df
+Filesystem      1K-blocks      Used Available Use% Mounted on
+none              4015208         0   4015208   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none              4015208         4   4015204   1% /mnt/wsl
+drivers         248962044 236309164  12652880  95% /usr/lib/wsl/drivers
+/dev/sdd       1055762868   3064120 998995276   1% /
+none              4015208        76   4015132   1% /mnt/wslg
+none              4015208         0   4015208   0% /usr/lib/wsl/lib
+rootfs            4010192      2672   4007520   1% /init
+none              4015208       804   4014404   1% /run
+none              4015208         0   4015208   0% /run/lock
+none              4015208         0   4015208   0% /run/shm
+none              4015208        76   4015132   1% /mnt/wslg/versions.txt
+none              4015208        76   4015132   1% /mnt/wslg/doc
+C:\             248962044 236309164  12652880  95% /mnt/c
+D:\             975293872 340561760 634732112  35% /mnt/d
+snapfuse            75776     75776         0 100% /snap/core22/2139
+snapfuse            75776     75776         0 100% /snap/core22/2133
+snapfuse            52224     52224         0 100% /snap/snapd/25577
+snapfuse            52096     52096         0 100% /snap/snapd/25202
+snapfuse             4608      4608         0 100% /snap/tree/54
+tmpfs              803040        20    803020   1% /run/user/1000
+=============================================================================
