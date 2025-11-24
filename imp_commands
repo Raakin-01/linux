@@ -67,4 +67,14 @@ raakin@DESKTOP-0FFMSPJ:~$ du
 16      ./snap/tree/common
 24      ./snap/tree
 28      ./snap
-340     .
+========================================================================================
+ps:
+The ps command summarizes the status of all running processes in your Linux system 
+at a specific time.
+Unlike top and htop, it doesn’t update the information automatically.
+Here’s the syntax:
+raakin@DESKTOP-0FFMSPJ:~$ ps
+    PID TTY          TIME CMD
+    396 pts/0    00:00:00 bash
+    681 pts/0    00:00:00 ps
+==============================================================================================
